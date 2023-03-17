@@ -3,15 +3,15 @@ function semRetorno(...args: string[]): void {
 }
 
 const pessoa = {
-    nome: 'Luiz',
-    sobrenome: 'Otávio',
+    nome: 'Matheus',
+    sobrenome: 'Freitas',
 
     exibirNome(): void {
         console.log(this.nome + '' + this.sobrenome);
     },
 };
 
-semRetorno('Luiz', 'Otávio');
+semRetorno('Matheus', 'Freitas');
 pessoa.exibirNome();
 
 export { pessoa };
